@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Privacy for the offline Pokedom beta, support email and Apple TestFlight testing.">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; base-uri 'none'; form-action 'none'">
+<title>Pokedom — Privacy</title>
+<style>
+:root{color-scheme:light;--ink:#173b32;--muted:#52665b;--paper:#f5f3e9;--line:#d4decf;--green:#205d48}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.65 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+a{color:var(--green);text-underline-offset:.2em}a:hover{text-decoration-thickness:2px}a:focus-visible{outline:3px solid #ac6615;outline-offset:5px;border-radius:3px}
+.wrap{max-width:960px;margin:auto;padding:0 26px}header{border-bottom:1px solid var(--line)}.header{display:flex;align-items:center;justify-content:space-between;gap:20px;padding-top:22px;padding-bottom:22px;flex-wrap:wrap}
+.brand{font-size:23px;font-weight:800;text-decoration:none;letter-spacing:-.04em}nav{display:flex;gap:20px;flex-wrap:wrap;font-size:15px}nav a[aria-current=page]{font-weight:750}
+main{padding-top:55px;padding-bottom:55px;max-width:760px}.eyebrow{font-size:12px;font-weight:800;letter-spacing:.13em;text-transform:uppercase;color:var(--muted)}h1{font-size:clamp(36px,7vw,57px);line-height:1.09;letter-spacing:-.045em;margin:13px 0 24px}h2{font-size:24px;line-height:1.25;letter-spacing:-.025em;margin:35px 0 12px}p{margin:0 0 18px}.lead{font-size:21px;line-height:1.5;color:var(--muted)}.small{font-size:14px;color:var(--muted)}
+.card{padding:25px;border:1px solid var(--line);border-radius:18px;background:#fffefa;margin:26px 0}.card h2{margin-top:0}.button{display:inline-block;background:var(--green);color:white;text-decoration:none;font-weight:700;padding:12px 18px;border-radius:10px;margin:4px 0 10px;overflow-wrap:anywhere}ul{padding-left:24px}li{padding-left:3px;margin-bottom:9px}strong{font-weight:750}footer{border-top:1px solid var(--line);padding:24px 0 32px;font-size:14px;color:var(--muted)}footer p{margin:0 0 7px}.email{overflow-wrap:anywhere}
+@media(max-width:520px){.wrap{padding-left:20px;padding-right:20px}main{padding-top:34px;padding-bottom:35px}.card{padding:20px}nav{gap:16px}.lead{font-size:19px}}
+</style>
+</head>
+<body>
+<header><div class="wrap header"><a class="brand" href="../">Pokedom</a><nav aria-label="Support navigation"><a href="../">Support</a><a href="../privacy/" aria-current="page">Privacy</a><a href="../terms/">Terms</a></nav></div></header>
+<main class="wrap">
+<p class="eyebrow">Offline 1.0 beta · Effective October 18, 2026</p>
+<h1>Privacy policy</h1>
+<p class="lead">Your game profile stays on your device. Voluntary support email and Apple’s TestFlight testing service are separate sources of information.</p>
+<h2>Local game data</h2>
+<p>Pokedom stores your deck, creature levels, Seeds, Renown, completed-match records, claimed supplies, trial progress, onboarding completion and sound/motion preferences in the app’s local storage. A previous valid save is kept locally to help recover an unreadable profile.</p>
+<p>The offline game does not upload this profile to Studio Minden. This beta has no account system, developer-run cloud sync, advertising SDK, app analytics SDK or tracking. It does not request access to your contacts, location, camera or microphone.</p>
+<p>To remove local progress, delete the app and its data through iOS. Manage device backups separately through Apple’s settings. Apple-controlled backups, where enabled, follow Apple’s policies; Pokedom does not operate its own backup service.</p>
+<h2>When you email support</h2>
+<p>If you choose to email <a class="email" href="mailto:pokedom@studiominden.org">pokedom@studiominden.org</a>, we receive your email address, message and anything you choose to attach. Your email service and our email providers process delivery.</p>
+<p>The in-app support composer adds a visible Diagnostics section with the app name, version/build, iOS version and generic device model. You can edit or remove it before sending. It does not automatically attach logs, identifiers, game progress or other personal content, and nothing is sent until you choose to send the email.</p>
+<p>We use support correspondence to respond to requests and investigate problems. We keep it as needed to handle the request and maintain a support record. Contact us to request access to or deletion of correspondence we hold, subject to any applicable retention obligation.</p>
+<h2>Apple TestFlight data</h2>
+<p>When you install this beta through TestFlight, Apple automatically collects crash and usage information and shares testing information with the app developer. This can include your name and email address for an email invitation. Feedback you submit can include comments, screenshots and device or app details. Apple’s automatic TestFlight collection cannot be turned off while using the service.</p>
+<p>We use TestFlight reports to improve Pokedom and do not share them with third parties. Apple controls its own collection and retention. See <a href="https://www.apple.com/legal/privacy/data/en/test-flight/" rel="noreferrer">TestFlight &amp; Privacy</a> for details and data-management options. Direct support email is separate from TestFlight feedback.</p>
+<h2>This support website</h2>
+<p>These static pages set no cookies and contain no analytics, advertising, tracking scripts, external fonts or embedded third-party assets. There is no contact form.</p>
+<p>GitHub Pages hosts this website. GitHub logs visitors’ IP addresses for security purposes. That hosting activity is separate from Pokedom’s offline app. Read <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages#data-collection" rel="noreferrer">GitHub Pages data collection</a> and the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" rel="noreferrer">GitHub Privacy Statement</a>.</p>
+<h2>Changes and questions</h2>
+<p>This policy describes the current offline beta. We will update it if the app’s data practices change. New online or creator features are not covered as existing features by this policy.</p>
+<p>Privacy questions or requests: <a class="email" href="mailto:pokedom@studiominden.org?subject=Pokedom%20privacy">pokedom@studiominden.org</a>.</p>
+</main>
+<footer><div class="wrap"><p>Pokedom · Studio Minden · Offline 1.0 beta</p><p><a class="email" href="mailto:pokedom@studiominden.org">pokedom@studiominden.org</a> · Updated October 18, 2026</p></div></footer>
+</body>
+</html>
