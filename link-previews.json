@@ -1,0 +1,23 @@
+{
+  "baseUrl": "https://hochipants.github.io/pokedom-pages/",
+  "previews": [
+    {
+      "app": "Pokedom",
+      "slug": "pokedom",
+      "tagline": "Build your deck. Defend your grove.",
+      "kind": "footage",
+      "video": "assets/previews/pokedom-v1.mp4",
+      "poster": "assets/previews/pokedom-v1.jpg",
+      "width": 720,
+      "height": 1566,
+      "posterWidth": 900,
+      "posterHeight": 1958,
+      "duration": 14.0,
+      "videoBytes": 458835,
+      "posterBytes": 108656,
+      "pages": [
+        "index.html"
+      ]
+    }
+  ]
+}
